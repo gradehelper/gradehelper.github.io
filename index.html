@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flute Scale Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Grade 5 Scale Tracker">
+</head>
+<body>
+        <header class="spotify-header">
+          <p></p>
+            <h2>Flute Grade 5 Preparation</h2>
+        </header>
+    <div class="spotify-container">
+        <main class="spotify-main">
+            <div class="scale-info">
+                <h1 class="one-line-text" id="scaleName">Scale</h1>
+              <p></p>
+              <button id="toggleButton">Information</button>
+              <div class="dropdown-content" id="dropdownContent">
+                <h2>Sharps/Flats:</h2>
+                <p id="sharpsFlats">-</p>
+                <h2>Accidentals (Minor) // Notes (Sevenths):</h2>
+                <p id="accidentalsMinor">-</p>
+                <h2>Starting Note:</h2>
+                <p id="startingNote">-</p>
+              </div>
+            </div>
+            <button id="newScaleButton">New Scale</button>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

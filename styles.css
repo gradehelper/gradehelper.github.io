@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.spotify-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.spotify-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 96px;
+    margin: 0;
+}
+
+.one-line-text {
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow: ellipsis; /* Display an ellipsis (...) for truncated text */
+    max-width: 100%; /* Ensure text doesn't exceed the width of its container */
+}
+
+/* Media query for smaller screens (e.g., screens with a maximum width of 768px) */
+@media screen and (max-width: 768px) {
+    .one-line-text {
+        font-size: 48px; /* Reduce font size for smaller screens */
+    }
+}
+
+.spotify-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scale-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0;
+}
+
+button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #198f42;
+}
+
+#toggleButton {
+    padding: 10px 20px;
+    background-color: #1DB954;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#toggleButton:hover {
+    background-color: #198f42;
+}
+
+#dropdownContent {
+    display: none;
+    background-color: #3b3b3b;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

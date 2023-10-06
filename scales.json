@@ -1,0 +1,92 @@
+[
+    {
+        "name": "C Major",
+        "sharpsFlats": "0 sharps/flats",
+        "accidentalsMinor": "N/A",
+        "startingNote": "C"
+    },
+    {
+        "name": "D Major",
+        "sharpsFlats": "2 sharps: F#, C#",
+        "accidentalsMinor": "N/A",
+        "startingNote": "D"
+    },
+    {
+        "name": "E Major",
+        "sharpsFlats": "4 sharps: F#, C#, G#, D#",
+        "accidentalsMinor": "N/A",
+        "startingNote": "E"
+    },
+    {
+        "name": "Ab Major",
+        "sharpsFlats": "4 flats: Bb, Eb, Ab, Db",
+        "accidentalsMinor": "N/A",
+        "startingNote": "Ab"
+    },
+    {
+        "name": "A Major",
+        "sharpsFlats": "3 sharps: F#, C#, G#",
+        "accidentalsMinor": "N/A",
+        "startingNote": "A"
+    },
+    {
+        "name": "C Minor",
+        "sharpsFlats": "3 flats: Bb*, Eb, Ab",
+        "accidentalsMinor": "B♮",
+        "startingNote": "C"
+    },
+    {
+        "name": "E Minor",
+        "sharpsFlats": "1 sharp: F#",
+        "accidentalsMinor": "D#",
+        "startingNote": "E"
+    },
+    {
+        "name": "F Minor",
+        "sharpsFlats": "4 flats: Bb, Eb*, Ab, Db",
+        "accidentalsMinor": "E♮",
+        "startingNote": "F"
+    },
+    {
+        "name": "F# Minor",
+        "sharpsFlats": "3 sharps: F#, C#, G#",
+        "accidentalsMinor": "E#",
+        "startingNote": "F#"
+    },
+    {
+        "name": "A Minor",
+        "sharpsFlats": "0 flats/sharps",
+        "accidentalsMinor": "G#",
+        "startingNote": "A"
+    },
+    {
+        "name": "A Dom7",
+        "sharpsFlats": "3 sharps: F#, C#, G#",
+        "accidentalsMinor": "E, G#, B, D // \"Every good sharp boy drinks\"",
+        "startingNote": "Starts on an E // Ends on an A (B-G-A)"
+    },
+    {
+        "name": "Bb Dom7",
+        "sharpsFlats": "2 flats: Bb, Eb",
+        "accidentalsMinor": "F, A, C, Eb // \"Face Ebony\"",
+        "startingNote": "Starts on an F // Ends on an Bb (C-A-Bb)"
+    },
+    {
+        "name": "Eb Dim7",
+        "sharpsFlats": "0 sharps/flats",
+        "accidentalsMinor": "Eb, Gb, A, C // \"Ebony Goes Flat At Clarinet\"",
+        "startingNote": "Eb"
+    },
+    {
+        "name": "C# Chromatic",
+        "sharpsFlats": "N/A",
+        "accidentalsMinor": "N/A",
+        "startingNote": "C#"
+    },
+    {
+        "name": "F Chromatic",
+        "sharpsFlats": "N/A",
+        "accidentalsMinor": "N/A",
+        "startingNote": "F"
+    }
+]
