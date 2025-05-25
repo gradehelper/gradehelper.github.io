@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Embedded Website</title>
+    <title>Full Page Embed</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Here is another website embedded:</h1>
-
-    <iframe src="https://bustimes.org/services/444-leeds-wakefield?date=2025-05-25&service=46717:444&service=46718:446" width="100%" height="600" style="border:1px solid #ccc;">
-        Your browser does not support iframes.
-    </iframe>
-
+    <iframe src="https://bustimes.org/services/444-leeds-wakefield?date=2025-05-25&service=46717:444&service=46718:446"></iframe>
 </body>
 </html>
